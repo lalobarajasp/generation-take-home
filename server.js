@@ -13,3 +13,12 @@ new WebpackDevServer(webpack(config), {
 
   console.log('Listening at http://localhost:3000/');
 });
+
+const isDevelopment = process.env.NODE_ENV !== 'production';
+
+module.exports = {
+  mode: isDevelopment ? 'development' : 'production',
+  devServer: {
+    hot: true,
+  },
+};

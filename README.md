@@ -1,59 +1,70 @@
-Generation Take-Home Coding Challenge
-=================================
-This is a take-home coding challenge used to help evaluate candidates
-interested in joining the team at Generation.
-The goal is for candidates to complete the coding challenge before the
-in-person interview so that we can discuss the solution together.
-In cases where this is not possible, we may discuss the solution together
-over a followup phone call.
+# Getting Started with Create React App
 
-### What should you expect?
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-We expect that the exercise will take anywhere from 2-5 hours to complete
-depending on your familiarity with React and with the GoogleMaps API.
+## Available Scripts
 
-We understand that this is a significant amount of time so we really appreciate
-the effort you put into it. 
+In the project directory, you can run:
 
-### How should you submit your code?
+### `npm start`
 
-Any way you want - email us a link to your personal repo, a link with the application running on a server, etc.
-Please include a couple screenshots of the app.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### What if I don't know React? 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Feel free to submit a solution that meets the requirements, but without using React.
-React is an important part of our stack and you'll be using it every day so it's important
-that you're excited to learn it! If you don't know React and you're able to learn the basics
-in order to complete the exercise, we'll be impressed :)
+### `npm test`
 
-<a href="https://tylermcginnis.com/react-js-tutorial-pt-1-a-comprehensive-guide-to-building-apps-with-react-js-8ce321b125ba#.h5n3iisi4">Here's a great React tutorial</a>
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-<a href="http://courses.reactjsprogram.com/courses/reactjsfundamentals">This one is also great.</a>
+### `npm run build`
 
-### How do you start?
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Clone the repo on your computer
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Run
-```
-npm install
-npm start
-open http://localhost:3000
-```
-Read the intro and next steps on localhost:3000
-Edit `src/YourComponent.js`.  
-Your changes will appear without reloading the browser like in [this video](http://vimeo.com/100010922).
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### What do we look for?
+### `npm run eject`
 
-* **Correctness**: does the application do what was asked (e.g., all the user stories are complete)? If there is anything missing, does the README explain why it is missing?
-* **Code quality**: is the code simple, easy to understand, and maintainable?  Are there any code smells or other red flags? Is the coding style consistent with the language's guidelines? Is it consistent throughout the codebase?
-* **Testing**: Are there some unit and some integration tests?
-	* We're not looking for full coverage (given time constraint) but just trying to get a feel for your testing skills.
-* **UX**:  Is the web interface understandable and pleasing to use? Is it responsive to various screen sizes, and fast to load?
-* **Technical choices**: do choices of libraries, databases, architecture etc. seem appropriate for the chosen application?
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### Source
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-This boilerplate project is a mirror plus a few additions from gaearon's react boilerplate (https://github.com/gaearon/react-hot-boilerplate)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
